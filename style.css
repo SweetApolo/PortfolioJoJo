@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0px 20px;
+
+}
+
+.navbar {
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.navbar .nombrelogo {
+  float: left;
+  line-height: 80px;
+  letter-spacing: 0.5px;
+}
+
+.navbar .logo {
+  float: left;
+  width: 75px;
+}
+
+.navbar .menu {
+  float: right;
+  list-style: none;
+}
+
+.navbar .menu li {
+  float: left;
+}
+
+.navbar .menu li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar .menu li a:hover {
+  text-decoration: underline;
+}
+
+.navContinuo {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 300;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
